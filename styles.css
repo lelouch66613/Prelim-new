@@ -1,0 +1,162 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    max-width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+}
+
+.login-container h1 {
+    margin-top: 0;
+    text-align: center;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login-form label {
+    margin-bottom: 10px;
+}
+
+#login-form input[type="text"], #login-form input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+#login-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#login-form input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+#error-message {
+    color: #red;
+    margin-top: 10px;
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.homepage-container {
+    max-width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.homepage-container h1 {
+    margin-top: 0;
+}
+
+#logout-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#logout-button:hover {
+    background-color: #3e8e41;
+}
+.login-container {
+  background-image: linear-gradient(to bottom, #4CAF50, #2ECC71);
+  background-size: 100% 300px;
+  background-position: 0% 100%;
+  transition: background-position 0.5s ease-out;
+}
+
+.login-container:hover {
+  background-position: 100% 100%;
+}
+.homepage-container {
+  background-image: linear-gradient(to bottom, #4CAF50, #2ECC71);
+  background-size: 100% 300px;
+  background-position: 0% 100%;
+  transition: background-position 0.5s ease-out;
+}
+
+.homepage-container:hover {
+  background-position: 100% 100%;
+}
+#logout-button {
+  background-color: #FF0000;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#logout-button:hover {
+  background-color: #CC0000;
+}
+
+.form-control {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 5px; /* keep some padding for usability */
+}
+#logout-button {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  background-color: #fff; /* set a background color to maintain visibility */
+  padding: 5px 10px; /* keep some padding for usability */
+  cursor: pointer; /* maintain the pointer cursor to indicate it's a button */
+}
+#button {
+  border: none;
+  border-radius: 45%; /* set border-radius to 50% to make the button a circle */
+  padding: 10px 20px; /* adjust padding to fit your needs */
+  width: 90px; /* set a fixed width to maintain a circular shape */
+  height: 40px; /* set a fixed height to maintain a circular shape */
+  background-color: #337ab7; /* set a background color to match the primary color */
+  color: #fff; /* set text color to white */
+  cursor: pointer; /* maintain the pointer cursor to indicate it's a button */
+  background-image: linear-gradient(to bottom, #337ab7, #265a88);
+}
+body {
+  background-image: linear-gradient(to bottom, #7A288A, #5C005C); /* add a gradient background color */
+  background-repeat: no-repeat; /* prevent the gradient from repeating */
+  height: 100vh; /* set the height of the body to 100% of the viewport */
+  margin: 0; /* remove default margin */
+}
